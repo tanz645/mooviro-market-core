@@ -1,0 +1,974 @@
+[
+    {
+        "serial": 1,
+        "name": "Morocco",
+        "type": "country",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-16.4271206, 31.4640284]
+        },
+        "parent_serial" : 0,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 2,
+        "name": "Dakhla-Oued Ed-Dahab",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-16.7968213, 22.6652084]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 3,
+        "name": "Laâyoune-Sakia El Hamra",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-13.9006368, 27.9190126]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 4,
+        "name": "Guelmim-Oued Noun",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-11.34602, 28.64434]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 5,
+        "name": "Guelmim",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-10.0745275, 28.9899691]
+        },
+        "parent_serial" : 4,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 6,
+        "name": "Tan-Tan",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-11.1160614, 28.4306533]
+        },
+        "parent_serial" : 4,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 7,
+        "name": "Souss-Massa",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.3032568, 29.7335165]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 8,
+        "name": "Agadir",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.6127641, 30.4197423]
+        },
+        "parent_serial" : 7,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 9,
+        "name": "Aït Melloul",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.5300911, 30.3373827]
+        },
+        "parent_serial" : 7,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 10,
+        "name": "Inezgane",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.5682686, 30.3592158]
+        },
+        "parent_serial" : 7,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 11,
+        "name": "Dcheira El Jihadia",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.5474874, 30.3799991]
+        },
+        "parent_serial" : 7,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 12,
+        "name": "Oulad Teima",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.2247393, 30.3926165]
+        },
+        "parent_serial" : 7,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 13,
+        "name": "Lqliaa",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.4709659, 30.2976468]
+        },
+        "parent_serial" : 7,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 14,
+        "name": "Taroudant",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-8.8944198, 30.4787073]
+        },
+        "parent_serial" : 7,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 15,
+        "name": "Tiznit",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.7655463, 29.7009702]
+        },
+        "parent_serial" : 7,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 16,
+        "name": "Drargua",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.4845486, 30.37965]
+        },
+        "parent_serial" : 7,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 17,
+        "name": "Drâa-Tafilalet",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.6763081, 31.270856]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 18,
+        "name": "Errachidia",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-4.4611151, 31.9350557]
+        },
+        "parent_serial" : 17,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 19,
+        "name": "Ouarzazate",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.9676089, 30.9355177]
+        },
+        "parent_serial" : 17,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 20,
+        "name": "Midelt",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-4.7501709, 32.6855079]
+        },
+        "parent_serial" : 17,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 21,
+        "name": "Oriental",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-4.8036824, 33.5567347]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 22,
+        "name": "Oujda",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-1.9424976, 34.6845655]
+        },
+        "parent_serial" : 21,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 23,
+        "name": "Nador",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-2.9727051, 35.1651399]
+        },
+        "parent_serial" : 21,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 24,
+        "name": "Berkane",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-2.3578093, 34.9281245]
+        },
+        "parent_serial" : 21,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 25,
+        "name": "Taourirt",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-2.9171707, 34.4048349]
+        },
+        "parent_serial" : 21,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 26,
+        "name": "Guercif",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-3.3637907, 34.2345074]
+        },
+        "parent_serial" : 21,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 27,
+        "name": "Beni Ansar",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-2.955577, 35.2553307]
+        },
+        "parent_serial" : 21,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 28,
+        "name": "Tanger-Tetouan-Al Hoceima",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.583492, 35.2173123]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 29,
+        "name": "Tanger",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.9045099, 35.7632539]
+        },
+        "parent_serial" : 28,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 30,
+        "name": "Tetouan",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.4014974, 35.5850629]
+        },
+        "parent_serial" : 28,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 31,
+        "name": "Ksar El Kebir",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.9484106, 35.0044701]
+        },
+        "parent_serial" : 28,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 32,
+        "name": "Larache",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.1904961, 35.1759024]
+        },
+        "parent_serial" : 28,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 33,
+        "name": "Fnideq",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.3807447, 35.8422162]
+        },
+        "parent_serial" : 28,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 34,
+        "name": "Martil",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.3018262, 35.6242468]
+        },
+        "parent_serial" : 28,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 35,
+        "name": "Ouazzane",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.5914506, 34.806345]
+        },
+        "parent_serial" : 28,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 36,
+        "name": "Al Hoceima",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-3.9551427, 35.239893]
+        },
+        "parent_serial" : 28,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 37,
+        "name": "M'diq",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.3274721, 35.6843909]
+        },
+        "parent_serial" : 28,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 38,
+        "name": "Fès-Meknès",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.5122554, 33.7389777]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 39,
+        "name": "Fez",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.0367599, 34.0239579]
+        },
+        "parent_serial" : 38,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 40,
+        "name": "Meknes",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.5730397, 33.881]
+        },
+        "parent_serial" : 38,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 41,
+        "name": "Taza",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-4.024387, 34.2199201]
+        },
+        "parent_serial" : 38,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 42,
+        "name": "Sefrou",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-4.8460438, 33.8295673]
+        },
+        "parent_serial" : 38,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 43,
+        "name": "Azrou",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.2456714, 33.4386727]
+        },
+        "parent_serial" : 38,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 44,
+        "name": "Ifrane",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.1627164, 33.5176991]
+        },
+        "parent_serial" : 38,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 45,
+        "name": "Rabat-Salé-Kénitra",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.3417824, 34.0770822]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 46,
+        "name": "Rabat",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.9273029, 33.969199]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 47,
+        "name": "Sale",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.8427073, 34.037757]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 48,
+        "name": "Kenitra",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.6353993, 34.2668928]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 49,
+        "name": "Temara",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.9732982, 33.9098987]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 50,
+        "name": "Khemisset",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.0905067, 33.8237574]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 51,
+        "name": "Sidi Slimane",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [34.2737828,-5.9805972]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 52,
+        "name": "Tifelt",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.3413431, 33.8921059]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 53,
+        "name": "Sidi Kacem",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.7584241, 34.2386205]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 54,
+        "name": "Souk El Arbaa",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.0112812,34.6792375]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 55,
+        "name": "Skhirat",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.0897733, 33.8438931]
+        },
+        "parent_serial" : 45,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 56,
+        "name": "Béni Mellal-Khénifra",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-8.5825833, 32.3898851]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 57,
+        "name": "Khouribga",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.952313, 32.8808069]
+        },
+        "parent_serial" : 56,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 58,
+        "name": "Beni Mellal",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.4082485, 32.3308995]
+        },
+        "parent_serial" : 56,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 59,
+        "name": "Khenifra",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-5.6914336, 32.9338389]
+        },
+        "parent_serial" : 56,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 60,
+        "name": "Fquih Ben Salah",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.7100717, 32.500168]
+        },
+        "parent_serial" : 56,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 61,
+        "name": "Oued Zem",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.5873493, 32.8604426]
+        },
+        "parent_serial" : 56,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 62,
+        "name": "Suq as-Sabt Awlad an-Nama",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-6.7191687, 32.2947272]
+        },
+        "parent_serial" : 56,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 63,
+        "name": "Casablanca-Settat",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-8.4685817, 33.0629393]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 64,
+        "name": "Casablanca",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.6570327, 33.5722678]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 65,
+        "name": "Mohammedia",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.4239142, 33.6873749]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 66,
+        "name": "El Jadida",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-8.538684, 33.2334473]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 67,
+        "name": "Dar Bouazza",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.8313316, 33.5236056]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 68,
+        "name": "Settat",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.6371687, 32.9928641]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 69,
+        "name": "Berrechid",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.5984837, 33.2602523]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 70,
+        "name": "Bouskoura",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.7207482, 33.4472563]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 71,
+        "name": "Lahraouyine",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.5453008, 33.5468128]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 72,
+        "name": "Ain Harrouda",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.482975,12140, 33.6481658]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 73,
+        "name": "Benslimane",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.1463109, 33.6137595]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 74,
+        "name": "Sidi Bennour",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-8.4471453, 32.6492602]
+        },
+        "parent_serial" : 63,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 75,
+        "name": "Marrakesh-Safi",
+        "type": "state-region",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.543511, 31.7951842]
+        },
+        "parent_serial" : 1,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 76,
+        "name": "Marrakesh",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-8.0778933, 31.6346023]
+        },
+        "parent_serial" : 75,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 77,
+        "name": "Safi",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.2717123, 32.2930725]
+        },
+        "parent_serial" : 75,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 78,
+        "name": "El Kelaa Des Sraghna",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.4205778, 32.0510291]
+        },
+        "parent_serial" : 75,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 79,
+        "name": "Ben Guerir",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-7.9817397, 32.2307251]
+        },
+        "parent_serial" : 75,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 80,
+        "name": "Essaouira",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-9.7800518, 31.5109424]
+        },
+        "parent_serial" : 75,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "serial": 81,
+        "name": "Youssoufia",
+        "type": "city",
+        "geo_location": {
+            "type": "Point",
+            "coordinates": [-8.5431453, 32.2457986]
+        },
+        "parent_serial" : 75,
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    }
+]

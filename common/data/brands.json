@@ -1,0 +1,488 @@
+[
+    {
+        "name": "Alfa Romeo",
+        "logo": "https://www.carlogos.org/logo/Alfa-Romeo-logo-2015-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Aston Martin",
+        "logo": "https://www.carlogos.org/logo/Aston-Martin-logo-2003-640x286.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Audi",
+        "logo": "https://www.carlogos.org/car-logos/audi-logo-2016-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Bentley",
+        "logo": "https://www.carlogos.org/car-logos/bentley-logo-1400x800-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "BMW",
+        "logo": "https://www.carlogos.org/car-logos/bmw-logo-2020-blue-white-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Brabus",
+        "logo": "https://www.carlogos.org/logo/Brabus-logo-640x281.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Bugatti",
+        "logo": "https://www.carlogos.org/logo/Bugatti-logo-640x327.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Cadillac",
+        "logo": "https://www.carlogos.org/car-logos/cadillac-logo-2021-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Chery",
+        "logo": "https://www.carlogos.org/logo/Chery-logo-2013-640x346.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Corvette",
+        "logo": "https://www.carlogos.org/logo/Corvette-logo-2014-640x431.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Chevrolet",
+        "logo": "https://www.carlogos.org/logo/Chevrolet-logo-2013-640x281.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Chrysler",
+        "logo": "https://www.carlogos.org/car-logos/chrysler-logo-2010-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Citroën",
+        "logo": "https://www.carlogos.org/logo/Citroen-logo-2009-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Dacia",
+        "logo": "https://www.carlogos.org/logo/Dacia-logo-2008-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "DAF",
+        "logo": "https://www.carlogos.org/logo/DAF-logo-640x281.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Daimler",
+        "logo": "https://www.carlogos.org/logo/Daimler-logo-640x80.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Dodge",
+        "logo": "https://www.carlogos.org/logo/Dodge-logo-2011-640x90.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "DS",
+        "logo": "https://www.carlogos.org/logo/DS-logo-2009-640x486.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Ferrari",
+        "logo": "https://www.carlogos.org/car-logos/ferrari-logo-750x1100-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Fiat",
+        "logo": "https://www.carlogos.org/logo/Fiat-logo-2006-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Fisker",
+        "logo": "https://www.carlogos.org/logo/Fisker-logo-2007-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Ford",
+        "logo": "https://www.carlogos.org/car-logos/ford-logo-2017-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Genesis",
+        "logo": "https://www.carlogos.org/logo/Genesis-logo-640x248.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Alfa Romeo",
+        "logo": "https://www.carlogos.org/logo/Alfa-Romeo-logo-2015-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Alfa Romeo",
+        "logo": "https://www.carlogos.org/logo/Alfa-Romeo-logo-2015-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "GMC",
+        "logo": "https://www.carlogos.org/logo/GMC-logo-640x145.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Hennessey",
+        "logo": "https://www.carlogos.org/logo/Hennessey-text-logo-1186x130.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Hino",
+        "logo": "https://www.carlogos.org/logo/Hino-logo-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Honda",
+        "logo": "https://www.carlogos.org/car-logos/honda-logo-1700x1150-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Hummer",
+        "logo": "https://www.carlogos.org/logo/Hummer-logo-2000x205.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Hyundai",
+        "logo": "https://www.carlogos.org/logo/Hyundai-logo-silver-640x401.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Infiniti",
+        "logo": "https://www.carlogos.org/logo/Infiniti-logo-1989-640x308.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Isuzu",
+        "logo": "https://www.carlogos.org/logo/Isuzu-logo-1991-640x106.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Iveco",
+        "logo": "https://www.carlogos.org/logo/Iveco-logo-silver-640x122.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Jaguar",
+        "logo": "https://www.carlogos.org/logo/Jaguar-logo-2012-640x287.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Jeep",
+        "logo": "https://www.carlogos.org/car-logos/jeep-logo-1993-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Kia",
+        "logo": "https://www.carlogos.org/logo/Kia-logo-640x321.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Lamborghini",
+        "logo": "https://www.carlogos.org/car-logos/lamborghini-logo-1000x1100-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Land Rover",
+        "logo": "https://www.carlogos.org/logo/Land-Rover-logo-2011-640x335.jpga",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Lexus",
+        "logo": "https://www.carlogos.org/logo/Lexus-logo-1988-640x266.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Lincoln",
+        "logo": "https://www.carlogos.org/logo/Lincoln-logo-2019-640x222.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Lotus",
+        "logo": "https://www.carlogos.org/logo/Lotus-logo-2019-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Mack Trucks",
+        "logo": "https://www.carlogos.org/logo/Mack-logo-2014-640x314.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "MAN",
+        "logo": "https://www.carlogos.org/logo/MAN-logo-640x355.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Mansory",
+        "logo": "https://www.carlogos.org/logo/Mansory-logo-640x60.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Maserati",
+        "logo": "https://www.carlogos.org/car-logos/maserati-logo-2020-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Maybach",
+        "logo": "https://www.carlogos.org/logo/Maybach-logo-640x353.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Mazda",
+        "logo": "https://www.carlogos.org/logo/Mazda-logo-1997-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Mercedes",
+        "logo": "https://www.carlogos.org/logo/Mercedes-Benz-logo-2011-640x369.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Mini",
+        "logo": "https://www.carlogos.org/logo/Mini-logo-2001-640x270.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Mitsubishi",
+        "logo": "https://www.carlogos.org/logo/Mitsubishi-logo-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Nissan",
+        "logo": "https://www.carlogos.org/car-logos/nissan-logo-2020-black-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Opel",
+        "logo": "https://www.carlogos.org/logo/Opel-logo-2009-640x496.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Peugeot",
+        "logo": "https://www.carlogos.org/logo/Peugeot-logo-2010-640x451.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Porsche",
+        "logo": "https://www.carlogos.org/car-logos/porsche-logo-2050x1100-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Ram",
+        "logo": "https://www.carlogos.org/logo/RAM-logo-2009-640x173.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Renault",
+        "logo": "https://www.carlogos.org/logo/Renault-logo-2015-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Rolls Royce",
+        "logo": "https://www.carlogos.org/logo/Rolls-Royce-logo-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Saab",
+        "logo": "https://www.carlogos.org/logo/Saab-logo-2013-640x143.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Scania",
+        "logo": "https://www.carlogos.org/logo/Scania-logo-640x169.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "SEAT",
+        "logo": "https://www.carlogos.org/logo/SEAT-logo-2012-640x508.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Škoda",
+        "logo": "https://www.carlogos.org/logo/Skoda-logo-2016-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Subaru",
+        "logo": "https://www.carlogos.org/car-logos/subaru-logo-2003-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Suzuki",
+        "logo": "https://www.carlogos.org/logo/Suzuki-logo-640x285.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Tesla",
+        "logo": "https://www.carlogos.org/car-logos/tesla-logo-2200x2800-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Toyota",
+        "logo": "https://www.carlogos.org/car-logos/toyota-logo-2019-3700x1200-show.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Volkswagen",
+        "logo": "https://www.carlogos.org/logo/Volkswagen-logo-2019-640x500.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Volvo",
+        "logo": "https://www.carlogos.org/logo/Volvo-logo-2014-640x550.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Ducati",
+        "logo": "https://www.webbikeworld.com/wp-content/uploads/2020/06/zzzwbw-Ducati-Motor-Logo.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Harley Davidson",
+        "logo": "https://www.webbikeworld.com/wp-content/uploads/2020/06/zzzwbw-Harley-Davidson-Logo.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Aprilia",
+        "logo": "https://www.webbikeworld.com/wp-content/uploads/2020/06/zzzwbw-Aprilia-Logo.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Kawasaki",
+        "logo": "https://www.webbikeworld.com/wp-content/uploads/2020/06/zzzwbw-kawasaki-motorcycle-logo-png.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "KTM",
+        "logo": "https://www.webbikeworld.com/wp-content/uploads/2020/06/zzzwbw-KTM-Logo.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Yamaha",
+        "logo": "https://www.webbikeworld.com/wp-content/uploads/2020/06/zzzwbw-Yamaha-Motor-Company-Logo.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Benelli",
+        "logo": "https://www.benelli.com/iso-logo-2.png?v=2",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Vespa",
+        "logo": "https://i.pinimg.com/originals/ec/2c/05/ec2c05dc5ef852f2cb725e3852462530.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Triumph",
+        "logo": "https://i.pinimg.com/originals/ae/17/a3/ae17a3427dfb6065f403054dc8dd7069.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Honda",
+        "logo": "https://motorcycle-logos.com/wp-content/uploads/2016/10/Honda-motorcycle-logo.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Sanya",
+        "logo": "https://www.scooterdz.com/wp-content/uploads/2019/07/SANYA-SDZ.jpg",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "SYM",
+        "logo": "https://www.sym-global.com/storage/system/logo/SymLogo-S-red.png",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    },
+    {
+        "name": "Polaris",
+        "logo": "https://cdn1.polaris.com/globalassets/crp/2020/navigation/logo-polaris-blue.svg?v=a4ebc3ec&format=webp",
+        "created_at": "2022-08-12T12:15:59.612+00:00",
+        "updated_at": "2022-08-12T12:15:59.612+00:00"
+    }
+]
