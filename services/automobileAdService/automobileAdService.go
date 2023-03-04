@@ -8,6 +8,8 @@ import (
 	"matar/common/enum"
 	"matar/common/responses"
 	"matar/schemas/automobileAdSchema"
+	"matar/services/brandService"
+	"matar/services/locationService"
 	"matar/services/mediaService"
 	"matar/services/userService"
 	"matar/utils/helper"
@@ -29,6 +31,20 @@ func GetAutomobileAdGeneralById(ctx context.Context, id string) (*automobileAdSc
 		return nil, err
 	}
 	err = automobileAdCollection.FindOne(ctx, bson.D{{Key: "_id", Value: objId}, {Key: "active", Value: true}}).Decode(&automobileAd)
+	if err != nil {
+		return nil, err
+	}
+	return &automobileAd, nil
+}
+
+func GetAutomobileAdById(ctx context.Context, id string) (*automobileAdSchema.AutomobileAdGeneral, error) {
+	var automobileAd automobileAdSchema.AutomobileAdGeneral
+	var automobileAdCollection *mongo.Collection = clients.GetMongoCollection(clients.GetConnectedMongoClient(), automobileAdSchema.AutomobileAdCollectionName)
+	objId, err := primitive.ObjectIDFromHex(id)
+	if err != nil {
+		return nil, err
+	}
+	err = automobileAdCollection.FindOne(ctx, bson.D{{Key: "_id", Value: objId}}).Decode(&automobileAd)
 	if err != nil {
 		return nil, err
 	}
@@ -106,7 +122,7 @@ func DeleteAutomobileAdById(ctx context.Context, id string) error {
 	return nil
 }
 
-func CreateAutomobileAd(ctx context.Context, automobileAd automobileAdSchema.AutomobileAd) (string, error) {
+func CreateAutomobileAd(ctx context.Context, automobileAd automobileAdSchema.CreateAutomobileAd) (string, error) {
 	var automobileAdCollection *mongo.Collection = clients.GetMongoCollection(clients.GetConnectedMongoClient(), automobileAdSchema.AutomobileAdCollectionName)
 	userClaims := ctx.Value(userService.UserClaims{})
 	userId := userClaims.(*userService.UserClaims).Id.Hex()
@@ -121,18 +137,43 @@ func CreateAutomobileAd(ctx context.Context, automobileAd automobileAdSchema.Aut
 	if totalAutomobileAds >= int64(user.MaxAd) {
 		return "", errors.New("can not exceed max ad per account")
 	}
+	brand, err := brandService.GetBrandById(ctx, automobileAd.BrandId)
+	if err != nil || user == nil {
+		return "", err
+	}
+	city, err := locationService.GetLocationById(ctx, automobileAd.AddressId)
+	if err != nil || user == nil {
+		return "", err
+	}
+	stateRegion, err := locationService.GetLocationBySerial(ctx, city.ParentSerial)
+	if err != nil || user == nil {
+		return "", err
+	}
+	country, err := locationService.GetLocationBySerial(ctx, stateRegion.ParentSerial)
+	if err != nil || user == nil {
+		return "", err
+	}
 	newAutomobileAd := automobileAdSchema.AutomobileAd{
-		Id:               primitive.NewObjectID(),
-		Title:            automobileAd.Title,
-		UserId:           userId,
-		Brand:            automobileAd.Brand,
-		BodyType:         automobileAd.BodyType,
-		Address:          automobileAd.Address,
+		Id:     primitive.NewObjectID(),
+		Title:  automobileAd.Title,
+		UserId: userId,
+		Brand: automobileAdSchema.Brand{
+			Id:   brand.Id.Hex(),
+			Name: brand.Name,
+			Logo: brand.Logo,
+		},
+		BodyType: automobileAd.BodyType,
+		Address: automobileAdSchema.Address{
+			Id:          city.Id.Hex(),
+			Country:     country.Name,
+			StateRegion: stateRegion.Name,
+			City:        city.Name,
+		},
 		Model:            automobileAd.Model,
 		Milage:           automobileAd.Milage,
 		Price:            automobileAd.Price,
-		Images:           automobileAd.Images,
-		ContactNo:        automobileAd.ContactNo,
+		ContactNo:        []string{user.Phone},
+		Images:           []string{},
 		FuelType:         automobileAd.FuelType,
 		Color:            automobileAd.Color,
 		Transmission:     automobileAd.Transmission,
@@ -142,7 +183,7 @@ func CreateAutomobileAd(ctx context.Context, automobileAd automobileAdSchema.Aut
 		SellerComments:   automobileAd.SellerComments,
 		SeatCapacity:     automobileAd.SeatCapacity,
 		Specification:    automobileAd.Specification,
-		Active:           true,
+		Active:           false,
 		CreatedAt:        time.Now(),
 		UpdatedAt:        time.Now(),
 	}
@@ -340,25 +381,26 @@ func UploadAutomobileAdMedia(ctx context.Context, files []*multipart.FileHeader,
 	if err != nil || user == nil {
 		return "", err
 	}
-	content, err := GetAutomobileAdGeneralById(ctx, contentId)
+	content, err := GetAutomobileAdById(ctx, contentId)
 	if err != nil || user == nil {
 		return "", err
 	}
 	if len(content.Images) >= int(enum.MAX_FILE_PER_CONTENT) {
 		return "", errors.New("Max File limit reached")
 	}
-	prefix := userId + "/" + contentId + "/"
+	prefix := userId + "/" + contentId + "/" + time.Now().GoString()
 	validFormats := []string{"image/png", "image/jpg", "image/jpeg"}
-	metaData := map[string]*string{}
+	// metaData := map[string]*string{}
 	for _, file := range files {
 		contentType := file.Header.Get("Content-Type")
 		if !helper.Contains(validFormats, contentType) {
 			return "", errors.New("Format not supported")
 		}
-		url, uploadErr := mediaService.UploadFiles(file, "", "", prefix, metaData)
-		if uploadErr != nil {
-			return "", errors.New("Can not upload file")
-		}
+		url := prefix
+		// url, uploadErr := mediaService.UploadFiles(file, "", "", prefix, metaData)
+		// if uploadErr != nil {
+		// 	return "", errors.New("Can not upload file")
+		// }
 		update := bson.M{
 			"$addToSet": bson.M{"images": url},
 			"$set":      bson.M{"updated_at": time.Now()},

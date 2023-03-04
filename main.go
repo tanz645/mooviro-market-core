@@ -15,6 +15,7 @@ import (
 
 func main() {
 	router := gin.Default()
+	router.MaxMultipartMemory = 4 << 20
 	router.Use(helper.CORS())
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()

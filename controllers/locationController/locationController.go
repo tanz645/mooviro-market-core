@@ -4,6 +4,8 @@ import (
 	"context"
 	"fmt"
 	"matar/common/responses"
+	"matar/controllers"
+	"matar/schemas/locationSchema"
 	"matar/services/locationService"
 	"net/http"
 	"strconv"
@@ -49,6 +51,31 @@ func GetLocationsByParentSerial() gin.HandlerFunc {
 		if err != nil {
 			fmt.Println(err)
 			c.JSON(http.StatusInternalServerError, responses.FailedResponse{Status: http.StatusInternalServerError, Error: true, Message: "Can not get Brands", Data: nil})
+			return
+		}
+		c.JSON(http.StatusOK, responses.SuccessResponse{Status: http.StatusOK, Success: true, Message: "", Data: result})
+	}
+}
+
+func SearchLocations() gin.HandlerFunc {
+
+	return func(c *gin.Context) {
+		ctx := context.Background()
+		ctx, cancel := context.WithTimeout(ctx, 10*time.Second)
+		defer cancel()
+		var searchLocation locationSchema.SearchLocation
+		if err := c.ShouldBindQuery(&searchLocation); err != nil {
+			c.JSON(http.StatusBadRequest, responses.FailedResponse{Status: http.StatusBadRequest, Error: true, Message: "Malformed request", Data: err.Error()})
+			return
+		}
+		if validationErr := controllers.Validate.Struct(&searchLocation); validationErr != nil {
+			c.JSON(http.StatusUnprocessableEntity, responses.FailedResponse{Status: http.StatusUnprocessableEntity, Error: true, Message: "Malformed request", Data: validationErr.Error()})
+			return
+		}
+		result, err := locationService.SearchLocations(ctx, searchLocation)
+		if err != nil {
+			fmt.Println(err)
+			c.JSON(http.StatusInternalServerError, responses.FailedResponse{Status: http.StatusInternalServerError, Error: true, Message: "Can not get locations", Data: nil})
 			return
 		}
 		c.JSON(http.StatusOK, responses.SuccessResponse{Status: http.StatusOK, Success: true, Message: "", Data: result})

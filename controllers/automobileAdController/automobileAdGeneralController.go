@@ -21,7 +21,7 @@ func CreateAutomobileAd() gin.HandlerFunc {
 		ctx = context.WithValue(ctx, userService.UserClaims{}, c.Value("user"))
 		ctx, cancel := context.WithTimeout(ctx, 10*time.Second)
 
-		var automobileAd automobileAdSchema.AutomobileAd
+		var automobileAd automobileAdSchema.CreateAutomobileAd
 		defer cancel()
 		if err := c.BindJSON(&automobileAd); err != nil {
 			c.JSON(http.StatusBadRequest, responses.FailedResponse{Status: http.StatusBadRequest, Error: true, Message: "Ad can not be created", Data: err.Error()})
@@ -181,7 +181,6 @@ func GetAutomobileAdsByUserId() gin.HandlerFunc {
 func UploadImages() gin.HandlerFunc {
 
 	return func(c *gin.Context) {
-
 		ctx := context.Background()
 		ctx = context.WithValue(ctx, userService.UserClaims{}, c.Value("user"))
 		ctx, cancel := context.WithTimeout(ctx, 100*time.Second)

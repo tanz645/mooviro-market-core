@@ -22,6 +22,17 @@ type CreateLocation struct {
 	UpdatedAt    time.Time          `json:"updated_at" bson:"updated_at"`
 }
 
+type SearchLocation struct {
+	Limit        uint16 `form:"limit" validate:"required,max=500,min=1"`
+	Page         uint16 `form:"page" validate:"required,min=1"`
+	Type         string `form:"type"`
+	Name         string `form:"name"`
+	ParentSerial uint32 `form:"parent_serial"`
+	// Serial       uint32 `form:"serial"`
+	SortBy    string `form:"sort_by" validate:"required,oneof=name created_at"`
+	SortOrder int8   `form:"sort_order" validate:"required,min=-1,max=1"`
+}
+
 type LocationGeneral struct {
 	Id           primitive.ObjectID `json:"id,omitempty" bson:"_id"`
 	Serial       uint32             `json:"serial"`

@@ -6,5 +6,5 @@ const (
 
 const (
 	MAX_FILE_PER_CONTENT int16 = 10
-	MAX_IMAGE_SIZE             = 3000000
+	MAX_IMAGE_SIZE             = 10000000
 )
